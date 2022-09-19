@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "node": "^18.9.0"
+  },
+  "name": "nftauction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@openzeppelin/contracts": "^4.1.0",
+    "chai": "^4.3.6",
+    "ethers": "^5.7.1",
+    "hardhat": "^2.11.1",
+    "mocha": "^10.0.0"
+  },
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "keywords": [],
+  "author": "Siya",
+  "license": "ISC",
+  "description": "This is a contract for NFT Auction using Lazy Minting"
+}
